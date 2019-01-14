@@ -1,4 +1,4 @@
-phrase = gets.chomp
+phrase = gets.strip
 
 def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
